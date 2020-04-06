@@ -1,0 +1,59 @@
+body {
+	background-color: #353535;
+	font-family: 'Roboto', sans-serif;
+}
+h1{
+	color: #ffffff;
+	font-size: 450%;
+}
+h2{
+	color: #ffffff;
+	font-size: 30px;
+}
+a#jess {
+	color: #ff6a00
+}
+a {
+	color: #00ff00
+}
+div#description {
+	color: #ffffff;
+}
+div#404 {
+
+}
+div#social {
+  position: fixed;
+  right: 0;
+
+}
+p {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+div#footer a {
+  font-size: 40px;
+}
+
+div#footer {
+text-align: center;
+}
+
+audio { width: 100px; height: 20px;}
+
+div#flag {
+position: relative;
+top: 30px;
+}
+
+div#head p {
+		color: #ffffff;
+	font-size: 30px;
+}
+
+div#deco {
+  position: fixed;
+  bottom: 0;
+  white-space: nowrap;
+}
