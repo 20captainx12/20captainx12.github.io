@@ -1,0 +1,24 @@
+div#imgview{
+	  width: 50%;
+      background: #353535;
+      border-radius: 50px;
+	  border: 4px solid #ffffff;
+	  font-size: 100%;
+	  color: #ffffff;
+	  font-family: 'Roboto', sans-serif;
+	  position: fixed;
+	  top: 10%;
+	  left: 25%;
+	  padding-top: 10px;
+	  padding-right: 30px;
+	  padding-bottom: 30px;
+      padding-left: 30px;
+	  font-weight: bold;
+}
+img#shade{
+position: fixed;
+width: 100%;
+height: 100%;
+top: 0px;
+left: 0px;
+}
