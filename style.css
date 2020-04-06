@@ -1,0 +1,176 @@
+html {
+  scroll-behavior: smooth;
+  cursor: url(img/assets/cursor.png), auto;
+}
+
+body{
+margin:0;
+padding:0;
+background-color: #3DB54B ;
+font-size:0px
+
+}
+
+div#body{
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size:0px ;
+	color: white ;
+	padding: 0px;
+}
+div#home{
+	background-image :url("img/assets/grasstile.png") ;
+	padding: 0px ;
+	font-size:30px ;
+}
+img#screenshot{
+	border: 10px solid #ffffff;
+}
+img#map{
+	border: 25px solid #ffffff;
+}
+div#map{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+div#visiting{
+	background-image :url("img/assets/inkkwave.jpg") ;
+	color: 00106B ;
+	padding: 0px ;
+	font-size:30px ;
+}
+div#updates{
+	background-image :url("img/assets/bricktile.png") ;
+	color: 00ffff ;
+	padding: 0px;
+	font-size:30px ;
+
+}
+div#comments{
+	background-image :url("img/assets/bulletintile.png") ;
+	color: 000000 ;
+	padding: 0px;
+	font-size:30px ;
+
+
+}
+div#posts{
+padding: 10px;
+background-color: FFE97F;
+border: 6px solid #CCB966;
+}
+#posts a{
+color: ff0000;
+}
+          #HCB_comment_box #hcb_form_content,
+          #HCB_comment_box #hcb_form_email,
+          #HCB_comment_box #hcb_form_name,
+          #HCB_comment_box #hcb_form_website {
+            background-color:#FFE97F;
+			border: 2px solid #CCB966;
+			color: #000000 ;
+			font-family: 'M PLUS Rounded 1c', sans-serif;
+          }
+table#villagerlist{
+border-collapse: collapse;
+}
+td#villagerlist{
+	padding: 0px;
+	background-color: #FFF896 ;
+	width: 100px;
+	border: 2px solid #068400;
+	font-size:30px ;
+
+}
+div#headpartition{
+background-image :url("img/assets/beachtile.gif") ;
+font-size:0px ;
+}
+
+table#navtable{
+text-align: center;
+
+
+}
+
+div#video {
+
+  background-size: cover ;
+  padding: 10px;
+  width: 620px ;
+  height: 500px ;
+  margin: auto;
+  text-align: center;
+}
+div#navbar {
+font-family: 'Fredoka One', sans-serif ;
+font-size: 0px ;
+background-color: fff896 ;
+  position: relative;
+  top: -59px;
+ padding: 0px;
+ 
+
+}
+h1{
+font-size:75px ;
+ margin-top: 0;
+ margin-bottom: 0;
+ padding: 0px;
+}
+.header h1{
+	font-family: 'Boogaloo', sans-serif ;
+	font-size:87px ;
+  color: ff9d00;
+  -webkit-text-fill-color: #FFFF00;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #FF0000;
+   margin-bottom: .67em ;
+   margin-top: 0;
+}
+div#header {
+	background-color: #3D5AFF ;
+	background-image :url("img/assets/islandtile.png") ;
+	    padding:0;
+    margin:0;
+	
+}
+div#footpartition{
+background-image :url("img/assets/stonetile.png") ;
+}
+div#footer{
+font-family: 'M PLUS Rounded 1c', sans-serif ;
+font-size:10px ;
+color: white ;
+background-color: #3DB54B ;
+
+}
+div#bodypartition{
+background-image :url("img/assets/spacersmall.png") ;
+font-size:0px ;
+}
+hr{
+border-top: 5px solid white;
+}
+a{
+color: fff896 ;
+cursor: url(img/assets/cursorhover.png), auto;
+}
+img#blogspace{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+}
+table#navtable, th, td,{
+color: 777344 ;
+}
+a#navlink{
+color: 777344 ;
+}
+p{
+ margin-top: 0;
+ margin-bottom: 0;
+ cursor: url(img/assets/cursortext.png), text;
+}
