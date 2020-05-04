@@ -8,7 +8,6 @@
 			  type = "text/css"
 			  href = "style.css" />
 		<link rel="icon" type="image/png" href="favicon.png">
-		<script src="script.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Boogaloo&display=swap" rel="stylesheet">
 	<meta property="og:title" content="Fish" />
@@ -16,8 +15,37 @@
 	<meta property="og:url" content="http://fish.20captainx12.uk" />
 	<meta property="og:image" content="img/fishflag.png" />
 	<meta property="og:description" content="The website for Fish island." />
+	<script type="text/javascript" src="date.js"></script>
+	<script src="java.js"></script>
+	
 	</head>
-	<body>
+	<body onload="startTime()">
+	<audio id="chimes">
+<source src="sounds/tt.ogg" type="audio/ogg">
+
+</audio>
+<script>
+// begin time chime area thingy
+
+var hourChimes= document.getElementById("chimes");
+function play() {
+hourChimes.play();
+}
+
+function pause() {
+hourChimes.pause();
+}
+
+setInterval(function(){
+  if(new Date().getMinutes() === 0) {
+      if(new Date().getSeconds() === 0) {
+    play();
+  }
+  }
+},10)
+
+//end time area
+</script>
 	<div class="header" id="header">
 	<h1><img height=60px src=img/fishseal.svg> Fish</h1>
 	</div>
@@ -30,10 +58,23 @@
 		</table>
 		<div id="bodypartition"><img src="img/assets/spacersmall.png"></div>
 	</div>
+
 	<!-- Begin the main part -->
-	<div id=body>
+	<div id="body"
+
 		<!-- Home section -->
+		
+		
 		<div id="home">
+		
+				<!-- Clock -->
+				<div id="timearea">
+				<p id="clock">00:00</p>
+				<img src= "img/assets/clockline.png">
+				<span id="date">20</span>/<span id="month">3</span>/<span id="year">2020
+				</div>
+				<!-- End clock -->
+		
 		<h1>Welcome to Fish!</h1>
 		<p>Fish is an island in <a href="http://www.animal-crossing.com/new-horizons/">Animal Crossing: New Horizons</a></p>
 		

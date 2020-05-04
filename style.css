@@ -174,3 +174,13 @@ p{
  margin-bottom: 0;
  cursor: url(img/assets/cursortext.png), text;
 }
+div#timearea{
+position: fixed;
+right: 15px;
+width: 200px;
+bottom: 15px;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	color: white ;
+	padding: 0px;
+text-align: center;
+}
